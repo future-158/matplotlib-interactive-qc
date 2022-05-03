@@ -1,0 +1,7 @@
+catalogue:
+  raw: data/raw/raw.csv
+  qc: data/qc/qc.csv
+
+columns:
+  slice_var: [station, year, variable]
+  datetime_var: datetime

@@ -1,0 +1,15 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - pandas
+  - numpy
+  - ipykernel
+  - "matplotlib<3.5"
+  - pip:
+      - omegaconf
+      - black
+      - missingno
+      - jupyter_bokeh
+      - ipympl
